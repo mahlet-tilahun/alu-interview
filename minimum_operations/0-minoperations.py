@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-'''A function that calculates the fewest number of operations 
-needed to result in exactly `n` `H` characters in a text file using 
+'''A function that calculates the fewest number of operations
+needed to result in exactly `n` `H` characters in a text file using
 only two operations: `Copy All` and `Paste`. '''
+
 
 def minOperations(n):
     if n < 2:
